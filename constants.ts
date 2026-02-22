@@ -1,6 +1,5 @@
 import { Video, ShieldCheck, Users, Trophy, Award, Zap } from 'lucide-react';
 import { Feature, Module, Testimonial, FaqItem } from './types';
-import instructorImg from './assets/lucas-bonilha.jpg';
 
 // --- IMAGENS ---
 // ATENÇÃO: Substitua as URLs abaixo pelas imagens do seu domínio 
@@ -8,7 +7,7 @@ import instructorImg from './assets/lucas-bonilha.jpg';
 
 export const IMAGES = {
   heroBg: 'https://images.unsplash.com/photo-1520045864981-8a8a325233e1?q=80&w=1920&auto=format&fit=crop',
-  instructor: instructorImg, // Imagem local do instrutor
+  instructor: '/instructor.jpg', // Imagem local do instrutor
   moduleBeginner: 'https://images.unsplash.com/photo-1455577380025-4321f1e1dca7?q=80&w=600&auto=format&fit=crop',
   moduleAdvanced: 'https://images.unsplash.com/photo-1566796125843-42a5b02cc95c?q=80&w=600&auto=format&fit=crop',
   logoPlaceholder: 'https://via.placeholder.com/150x50/FFC700/000000?text=ESCOLA+SKATE', 
