@@ -16,6 +16,7 @@ const Instructor: React.FC = () => {
                decoding="async"
                width="600"
                height="500"
+               referrerPolicy="no-referrer"
                className="w-full h-[350px] md:h-[500px] object-cover rounded-xl shadow-xl grayscale hover:grayscale-0 transition-all duration-500 relative z-10" 
              />
           </div>

@@ -11,6 +11,7 @@ const Hero: React.FC = () => {
           src={IMAGES.heroBg} 
           alt="Skate background" 
           className="w-full h-full object-cover"
+          referrerPolicy="no-referrer"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-brand-black via-brand-black/80 to-brand-black/40"></div>
       </div>
