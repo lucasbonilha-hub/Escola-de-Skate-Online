@@ -6,11 +6,11 @@ import { Feature, Module, Testimonial, FaqItem } from './types';
 // Exemplo: 'https://www.escoladeskateonline.com/imagens/hero.jpg'
 
 export const IMAGES = {
-  heroBg: 'https://images.unsplash.com/photo-1520045864981-8a8a325233e1?q=80&w=1920&auto=format&fit=crop',
-  instructor: '/instructor.jpg', // Imagem local do instrutor
-  moduleBeginner: 'https://images.unsplash.com/photo-1455577380025-4321f1e1dca7?q=80&w=600&auto=format&fit=crop',
-  moduleAdvanced: 'https://images.unsplash.com/photo-1566796125843-42a5b02cc95c?q=80&w=600&auto=format&fit=crop',
-  logoPlaceholder: 'https://via.placeholder.com/150x50/FFC700/000000?text=ESCOLA+SKATE', 
+  heroBg: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&q=80',
+  instructor: 'https://images.unsplash.com/photo-1531565637446-32307b194362?w=800&q=80', // Imagem local do instrutor
+  moduleBeginner: 'https://images.unsplash.com/photo-1547447134-cd3f5c716030?w=1200&q=80',
+  moduleAdvanced: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?w=1200&q=80',
+  logoPlaceholder: 'https://placehold.co/150x50/FFC700/000000?text=ESCOLA+SKATE', 
 };
 
 export const SITE_DATA = {
@@ -100,3 +100,4 @@ export const FAQ_ITEMS: FaqItem[] = [
     answer: "Não. O Curso é ideal para pessoas acima de 15 anos. No caso de crianças, indicamos que os pais assistam e pratiquem junto aos filhos."
   }
 ];
+// fix-images
